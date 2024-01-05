@@ -14,8 +14,7 @@ public class CruddemoApplication {
 
 	@Bean
 	public CommandLineRunner commandLineRunner(String[] args){
-
-		return runner -> {
+		return runner ->{
 			System.out.println("Hello World");
 		};
 	}
